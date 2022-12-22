@@ -1,0 +1,136 @@
+[
+  {
+    "id": "659318ffdkq20",
+    "name": "Наушники True Wireless JBL",
+    "description": "Наушники JBL Live Pro2 выполнены из пластика черного цвета и поставляются в зарядном кейсе емкостью 580 мА*ч, который заряжает встроенные в наушники аккумуляторы емкостью 55 мА*ч и обеспечивает до 10 часов автономной работы. ",
+    "img": "//i.ibb.co/CWM2qSN/head.png",
+    "isFavourite": false,
+    "price": 6500,
+    "rate": 3,
+    "reviews": 30,
+    "category": 2
+  },
+  {
+    "id": "659318ffdkq21",
+    "name": "Смартфон Apple iPhone 13 Pro Max",
+    "description": "256GB Sierra Blue",
+    "img": "//i.ibb.co/x3fqxRv/iphone13blue.png",
+    "isFavourite": false,
+    "price": 107352,
+    "rate": 3,
+    "reviews": 30,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq22",
+    "name": "Смартфон Xiaomi Redmi Note 10S",
+    "description": "6+64GB Gray",
+    "img": "//i.ibb.co/R9jgbW5/Phone-Black.png",
+    "isFavourite": false,
+    "price": 14352,
+    "rate": 4,
+    "reviews": 30,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq23",
+    "name": "Умная колонка Яндекс Станция 2",
+    "description": "Алиса, цвет Кобальт",
+    "img": "//i.ibb.co/qjD2r2h/smart-Yandex-Alisa2.png",
+    "isFavourite": false,
+    "price": 16352,
+    "rate": 4,
+    "reviews": 30,
+    "category": 4
+
+  },
+  {
+    "id": "659318ffdkq24",
+    "name": "Смартфон Apple IPhone 11 Pro Max",
+    "description": "64Gb, темно-зеленый",
+    "img": "//i.ibb.co/C5gBJBG/Iphone-Green.png",
+    "isFavourite": false,
+    "price": 114999,
+    "rate": 4.3,
+    "reviews": 57,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq25",
+    "name": "Ноутбук Honor MagicBook X 15",
+    "description": "i3 8/256 Gray (BBR-WAI9)",
+    "img": "//i.ibb.co/f0PPVVq/notebook-Honor.png",
+    "isFavourite": false,
+    "price": 44999,
+    "rate": 5,
+    "reviews": 10,
+    "category": 3
+
+  },
+  {
+    "id": "659318ffdkq26",
+    "name": "Яндекс Станция Кастомизированная",
+    "description": "Классная штука",
+    "img": "//i.ibb.co/KhWw5Fs/yandex-Station.png",
+    "isFavourite": false,
+    "price": 4999,
+    "rate": 4,
+    "reviews": 150,
+    "category": 4
+  },
+  {
+    "id": "659318ffdkq27",
+    "name": "Смартфон Apple iPhone 13 Pro Max",
+    "description": "128Gb, фиолетовый",
+    "img": "//i.ibb.co/Y2CHXqh/phone13gold.png",
+    "isFavourite": false,
+    "price": 129999,
+    "rate": 4,
+    "reviews": 150,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq28",
+    "name": "Смартфон Samsung Galaxy S20 FE",
+    "description": "512GB",
+    "img": "//i.ibb.co/vsV1gjz/Samsung-Galaxy-S20.png",
+    "isFavourite": false,
+    "price": 42352,
+    "rate": 4.5,
+    "reviews": 150,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq29",
+    "name": "Смартфон Samsung Galaxy S22 Ultra 5G",
+    "description": "256GB Phantom White",
+    "img": "//i.ibb.co/NtwRs9r/Samsung-Galaxy-S22-Ultra.png",
+    "isFavourite": false,
+    "price": 89352,
+    "rate": 5,
+    "reviews": 35,
+    "category": 1
+  },
+  {
+    "id": "659318ffdkq30",
+    "name": "Наушники True Wireless vivo TWS 2 ANC",
+    "description": "Наушники Vivo TWS 2 ANC обладают множеством функций, которые обязательно пригодятся владельцам во время неспешных прогулок и длительных поездок.",
+    "img": "//i.ibb.co/kKCs0rf/headVivo.png",
+    "isFavourite": false,
+    "price": 4500,
+    "rate": 5,
+    "reviews": 35,
+    "category": 2
+  },
+  {
+    "id": "659318ffdkq31",
+    "name": "Ноутбук игровой MSI Katana MSI 245",
+    "description": "55 дюймов 3840х2160 Пикс",
+    "img": "//i.ibb.co/q5PPxDc/notebook-Msi.png",
+    "isFavourite": false,
+    "price": 109352,
+    "rate": 3.5,
+    "reviews": 45,
+    "category": 3
+  }
+]

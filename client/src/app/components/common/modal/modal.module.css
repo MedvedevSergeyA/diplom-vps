@@ -1,0 +1,15 @@
+body.modal {
+  @apply fixed
+}
+
+.modal {
+  @apply fixed content-center top-0 bottom-0 right-0 left-0 hidden bg-[#00000066];
+}
+
+.modalContent {
+  @apply relative p-20 bg-white rounded-2xl min-w-[250];
+}
+
+.modal.active {
+  @apply flex justify-center items-center;
+}

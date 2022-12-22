@@ -1,0 +1,10 @@
+body.sideBar{
+    @apply fixed
+}
+
+.sideBar {
+    @apply fixed left-0 top-0 z-[1] w-[100%] h-[100%] bg-[#00000066] overflow-x-scroll hidden
+}
+.sideBar.active {
+    @apply absolute w-[420px] right-0 h-auto p-[30px] bg-white flex flex-col
+}
