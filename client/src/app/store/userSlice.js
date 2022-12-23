@@ -12,16 +12,14 @@ const initialState = localStorageService.getAccessToken()
       isLoading: true,
       error: null,
       auth: { userId: localStorageService.getUserId() },
-      isLoggedIn: true,
-      dataLoaded: false
+      isLoggedIn: true
     }
   : {
       entities: null,
       isLoading: false,
       error: null,
       auth: null,
-      isLoggedIn: false,
-      dataLoaded: false
+      isLoggedIn: false
     };
 
 const userSlice = createSlice({
@@ -51,7 +49,6 @@ const userSlice = createSlice({
       state.entities = null;
       state.isLoggedIn = false;
       state.auth = null;
-      state.dataLoaded = false;
     },
     authRequested: (state) => {
       state.error = null;

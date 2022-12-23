@@ -56,7 +56,7 @@ const DeviceCard = ({ _id }) => {
             </p>
             <button
               onClick={onClickAdd}
-              className="dark:bg-[#14458f] w-full dark:hover:bg-blue-800 dark:hover:text-white text-white mb-3 items-center bg-gradient-to-br from-sky-300 to-indigo-300 hover:scale-95 transition-all duration-300 delay-75 p-2 rounded-md"
+              className="dark:bg-gradient-to-br from-blue-700 to-indigo-600 w-full dark:hover:text-white text-white mb-3 items-center bg-gradient-to-br from-sky-300 to-indigo-300 hover:scale-95 transition-all duration-300 delay-75 p-2 rounded-md"
             >
               В корзину
             </button>

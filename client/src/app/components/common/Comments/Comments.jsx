@@ -48,7 +48,7 @@ const Comments = () => {
       {sortedComments.length > 0 && (
         <div>
           <div>
-            <h2 className="mb-3">Коментарии</h2>
+            <h2 className="mb-3 dark:text-gray-300">Коментарии</h2>
             {!isLoading ? (
               <CommentsList
                 comments={commentsCrop}
