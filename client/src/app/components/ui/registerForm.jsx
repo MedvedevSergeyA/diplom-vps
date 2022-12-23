@@ -3,8 +3,6 @@ import { useDispatch } from "react-redux";
 import { validator } from "../../utils/validator";
 import TextField from "../common/form/textField";
 import { signUp } from "../../store/userSlice";
-import { useHistory } from "react-router-dom";
-import { SHOP_ROUTE } from "../../utils/consts";
 
 const RegisterForm = () => {
   const [data, setData] = useState({
@@ -14,7 +12,6 @@ const RegisterForm = () => {
     password: ""
   });
   const dispatch = useDispatch();
-  const history = useHistory();
   const [errors, setErrors] = useState({});
   const handleChange = (target) => {
     setData((prevState) => ({
@@ -76,7 +73,6 @@ const RegisterForm = () => {
       ...data
     };
     dispatch(signUp(newData));
-    history.push(SHOP_ROUTE);
   };
 
   return (

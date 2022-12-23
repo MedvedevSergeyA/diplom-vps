@@ -4,7 +4,6 @@ import authService from "../services/auth.service";
 import { generetaAuthError } from "../utils/generateAuthData";
 import userService from "../services/user.service";
 import history from "../utils/history";
-import { SHOP_ROUTE } from "../utils/consts";
 
 const initialState = localStorageService.getAccessToken()
   ? {
@@ -69,13 +68,15 @@ const {
 const authRequested = createAction("users/authRequested");
 
 export const login =
-  ({ payload }) =>
+  ({ payload, redirect }) =>
   async (dispatch) => {
     const { email, password } = payload;
     dispatch(authRequested());
     try {
       const data = await authService.login({ email, password });
       localStorageService.setTokens(data);
+      if (redirect) history.push(redirect)
+      else history.push("/devices")
       dispatch(authRequestSuccess({ userId: data.userId }));
     } catch (error) {
       const { code, message } = error.response.data.error;
@@ -92,8 +93,8 @@ export const signUp = (payload) => async (dispatch) => {
   try {
     const data = await authService.register(payload);
     localStorageService.setTokens(data);
+    history.push("/");
     dispatch(authRequestSuccess({ userId: data.userId }));
-    history.push(SHOP_ROUTE);
   } catch (error) {
     dispatch(authRequestFailed(error.message));
   }

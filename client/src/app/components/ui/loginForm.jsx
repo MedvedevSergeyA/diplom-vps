@@ -5,7 +5,7 @@ import { validator } from "../../utils/validator";
 import TextField from "../common/form/textField";
 import CheckBoxField from "../common/form/checkBoxField";
 import { useHistory } from "react-router-dom";
-import { SHOP_ROUTE } from "../../utils/consts";
+// import { SHOP_ROUTE } from "../../utils/consts";
 
 const LoginForm = () => {
   const [data, setData] = useState({
@@ -63,8 +63,8 @@ const LoginForm = () => {
     event.preventDefault();
     const isValid = validate();
     if (!isValid) return;
-    dispatch(login({ payload: data }));
-    history.push(SHOP_ROUTE);
+    const redirect = history?.location?.state?.from?.pathname;
+    dispatch(login({ payload: data, redirect }));
   };
 
   return (
@@ -94,7 +94,7 @@ const LoginForm = () => {
       >
         Войти
       </button>
-      {loginError && <p className="text-red-600">{loginError}</p>}
+      {loginError ? <p className="text-red-600">{loginError}</p> : ""}
     </form>
   );
 };
