@@ -111,7 +111,7 @@ const RegisterForm = () => {
         error={errors.password}
       />
       <button
-        className="bg-[#417b9c] hover:bg-indigo-500 bg-indigo-400 transition duration-150 text-white p-2 rounded-md cursor-pointer"
+        className="dark:bg-[#14458f] hover:bg-indigo-500 bg-indigo-400 transition duration-150 text-white p-2 rounded-md cursor-pointer"
         type="submit"
         disabled={!isValid}
       >

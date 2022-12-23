@@ -28,7 +28,7 @@ const TextField = ({ label, type, name, value, onChange, error }) => {
             <button
               type="button"
               onClick={toggleShowPassword}
-              className="p-2.5 text-sm font-medium text-white dark:bg-[#14458f] dark:border-[#14458f] bg-[#417b9c] border rounded-r-[2px] hover:bg-indigo-500 bg-indigo-400 focus:ring-2 focus:outline-none focus:ring-indigo-400"
+              className="p-2.5 text-sm font-medium text-white dark:bg-[#14458f] dark:border-[#14458f] bg-indigo-400 border rounded-r-[2px] hover:bg-indigo-500 bg-indigo-400 focus:ring-2 focus:outline-none focus:ring-indigo-400"
             >
               <i className={"bi bi-eye" + (showPassword ? "-slash" : "")}></i>
             </button>
